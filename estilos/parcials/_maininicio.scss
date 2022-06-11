@@ -1,0 +1,24 @@
+.main{    
+    height: 50rem;
+    padding: 12rem 0rem 0rem 0rem;
+    background-image: url("../assets/Fondojpg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__div{
+        text-align: center;
+        .main__title{
+            padding: 5rem;
+            font-family: Caveat;
+            font-size: 4rem;
+            color: #F0F0F0;
+        }
+        .main__item{
+            padding: 1rem;
+            font-family: Be Vietnam Pro;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #F0F0F0;
+        }
+    }
+}
