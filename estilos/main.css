@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Caveat:wght@500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*HEADER*/
+.header {
+  position: fixed;
+  width: 100%;
+  height: 8.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #009DA2;
+}
+
+.header__logo {
+  margin-left: 0.5rem;
+  padding-top: 0.2rem;
+  width: 15rem;
+  position: absolute;
+}
+
+.header__list {
+  text-align: end;
+  margin-right: 1rem;
+}
+
+.header__list .header__item {
+  display: inline-block;
+  margin: 3rem 0.5rem;
+  font-family: Be Vietnam Pro;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.header__list .header__link {
+  text-decoration: none;
+  color: #F0F0F0;
+  -webkit-transition: color;
+  transition: color;
+}
+
+.header__list .header__link:hover {
+  color: #003031;
+}
+
+/*MAIN INICIO*/
+.main {
+  height: 50rem;
+  padding: 12rem 0rem 0rem 0rem;
+  background-image: url("../assets/Fondojpg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__div {
+  text-align: center;
+}
+
+.main__title {
+  padding: 5rem;
+  font-family: Caveat;
+  font-size: 4rem;
+  color: #F0F0F0;
+}
+
+.main__item {
+  padding: 1rem;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #F0F0F0;
+}
+
+/*FOOTER*/
+.footer {
+  height: 6rem;
+  width: 100%;
+  background-color: #009DA2;
+}
+
+.footer__title {
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+  font-family: Be Vietnam Pro;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #F0F0F0;
+  text-align: center;
+}
+
+.footer__div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div__social {
+  padding: 0.2rem;
+}
+
+.social__icon {
+  display: inline-block;
+  width: 2.2rem;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.social__icon:hover {
+  width: 2.4rem;
+}
+
+/*GALERIA*/
+.main__gal {
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  padding-top: 12rem;
+  padding-bottom: 5rem;
+}
+
+.gal__title {
+  padding-bottom: 2rem;
+}
+
+.div__gal {
+  margin: 0.5rem;
+}
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -webkit-column-gap: 0.7rem;
+          column-gap: 0.7rem;
+  row-gap: 0.7rem;
+}
+
+.gal__item {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* animation scale-up-center */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/*TECNICAS*/
+.main__tec {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
+.tec__title {
+  text-align: center;
+  font-family: Caveat;
+  font-size: 3rem;
+  color: #009DA2;
+}
+/*# sourceMappingURL=main.css.map */
