@@ -1,3 +1,13 @@
+/*Mapa Texto*/
+
+$estilosFuente: (
+    font-family: Be Vietnam Pro,
+    font-weight: 200,
+    font-size: 2rem,
+    color: $turquesa,
+    text-align: justify,
+);
+
 .main__tec{
     width: 100%;
     padding-top: 10rem;
@@ -6,6 +16,49 @@
         text-align: center;
         font-family: Caveat;
         font-size: 3rem;
-        color: #009DA2;
+        color: $turquesa;
+    }
+    .tec__pa{
+        padding-bottom: 1rem;
+        text-align: center;
+        font-family: map-get($estilosFuente, font-family);
+        font-weight: 200;
+        font-size: 1.2rem;
+        color: $turquesa;
+    }
+}
+
+
+.tec__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.article{
+    &__title{
+        font-family: Be Vietnam Pro;
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: $turquesa;
+        text-align:  map-get($estilosFuente, text-align);;
+    }
+    
+    &__pa{
+        padding: 1rem 2rem 1rem 2rem;
+        font-family: Be Vietnam Pro;
+        font-weight: map-get($estilosFuente, font-weight);
+        font-size: 1.2rem;
+        color: $turquesa;
+        text-align: map-get($estilosFuente, text-align);
+    }
+    
+    &__img{
+        width: 100%;
+        padding: 1rem;
+        -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
 }

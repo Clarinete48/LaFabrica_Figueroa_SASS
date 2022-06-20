@@ -1,14 +1,14 @@
 .footer{
     height: 6rem;
     width: 100%;  
-    background-color: #009DA2;
+    background-color: $turquesa;
     &__title{
         padding-top: 1rem;
         padding-bottom: 0.2rem;
         font-family: Be Vietnam Pro;
         font-weight: 200;
         font-size: 1.2rem;
-        color: #F0F0F0;
+        color: $blanco;
         text-align: center;
     }
     &__div{

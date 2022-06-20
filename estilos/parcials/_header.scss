@@ -4,7 +4,7 @@
     height: 8.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #009DA2;
+    background-color:$turquesa;
     background-size: cover;
     z-index: 100;
     &__logo{
@@ -15,8 +15,8 @@
     }
     &__list{
         text-align: end;
-        background-color: #009DA2;
-        padding-left: 0%;
+        background-color: $turquesa;
+        padding-right: 1rem;
         .header__item{
             display: inline-block;
             margin: 3rem 0.5rem;

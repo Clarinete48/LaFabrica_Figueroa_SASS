@@ -27,7 +27,7 @@
 .header__list {
   text-align: end;
   background-color: #009DA2;
-  padding-left: 0%;
+  padding-right: 1rem;
 }
 
 .header__list .header__item {
@@ -180,6 +180,7 @@
   }
 }
 
+/*Mapa Texto*/
 .main__tec {
   width: 100%;
   padding-top: 10rem;
@@ -193,6 +194,86 @@
   color: #009DA2;
 }
 
+.main__tec .tec__pa {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #009DA2;
+}
+
+.tec__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.article__title {
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #009DA2;
+  text-align: justify;
+}
+
+.article__pa {
+  padding: 1rem 2rem 1rem 2rem;
+  font-family: Be Vietnam Pro;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #009DA2;
+  text-align: justify;
+}
+
+.article__img {
+  width: 100%;
+  padding: 1rem;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.form {
+  padding: 7rem;
+}
+
+.form__title {
+  margin-top: 7rem;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+}
+
+.form__lable {
+  font-family: Be Vietnam Pro;
+  font-weight: 200;
+}
+
+.button {
+  width: 5rem;
+  height: 1.5rem;
+  background-color: #009DA2;
+  border-color: #009DA2;
+  border-style: none;
+  font-family: Be Vietnam Pro;
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: #F0F0F0;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.button:hover {
+  font-size: 1rem;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
   .header__logo {
@@ -204,9 +285,6 @@
     padding-top: 6rem;
     display: -ms-grid;
     display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     -ms-grid-rows: 1fr;
@@ -225,8 +303,8 @@
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr 1 fr;
-        grid-template-rows: 1fr 1fr 1fr 1 fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     -webkit-column-gap: 0.7rem;
             column-gap: 0.7rem;
     row-gap: 0.7rem;
@@ -248,8 +326,8 @@
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[8];
-        grid-template-rows: repeat(8 1fr);
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     -webkit-column-gap: 0.7rem;
             column-gap: 0.7rem;
     row-gap: 0.7rem;

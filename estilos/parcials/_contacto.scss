@@ -1,0 +1,31 @@
+.form{
+    padding: 7rem;
+}
+
+.form__title{
+    margin-top: 7rem;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+}
+
+.form__lable{
+    font-family: Be Vietnam Pro;
+    font-weight: 200;
+}
+
+.button{
+    width: 5rem;
+    height: 1.5rem;
+    background-color: $turquesa;
+    border-color: $turquesa;
+    border-style: none;
+    font-family: Be Vietnam Pro;
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: $blanco;
+    transition: font-size 0.5s;
+}
+
+.button:hover{
+    font-size: 1rem;
+}
