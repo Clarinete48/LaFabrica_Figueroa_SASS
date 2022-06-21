@@ -24,6 +24,7 @@
         font-size: 0.8rem;
 }
 
+
     #grilla{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -33,12 +34,29 @@
 }
 
 @media screen and (max-width: 590px) {
+
+    .main__tec{
+        padding-top: 17rem;
+    }
+
     .tec__section{
         flex-direction: column;
    }
+
+   .main__gal{
+    padding-top: 17rem;
+}
 }
 
 @media screen and (max-width: 425px) {
+    .main__tec{
+        padding-top: 17rem;
+    }
+
+    .main__gal{
+        padding-top: 17rem;
+    }
+    
     #grilla{
         display: grid;
         grid-template-columns: 1fr;
@@ -48,3 +66,6 @@
     } 
 }
 }
+
+
+
