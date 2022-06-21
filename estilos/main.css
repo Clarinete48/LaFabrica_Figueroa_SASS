@@ -8,8 +8,8 @@
 
 .header {
   position: fixed;
-  width: 100%;
   height: 8.5rem;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #009DA2;
@@ -222,7 +222,7 @@
   font-weight: 400;
   font-size: 1.3rem;
   color: #009DA2;
-  text-align: justify;
+  text-align: center;
 }
 
 .article__pa {
@@ -231,7 +231,7 @@
   font-weight: 200;
   font-size: 1.2rem;
   color: #009DA2;
-  text-align: justify;
+  text-align: center;
 }
 
 .article__img {
@@ -256,11 +256,9 @@
   font-weight: 200;
 }
 
-.button {
+.button, .button__reset, .button__enviar {
   width: 5rem;
   height: 1.5rem;
-  background-color: #009DA2;
-  border-color: #009DA2;
   border-style: none;
   font-family: Be Vietnam Pro;
   font-weight: 200;
@@ -270,8 +268,18 @@
   transition: font-size 0.5s;
 }
 
-.button:hover {
+.button:hover, .button__reset:hover, .button__enviar:hover {
   font-size: 1rem;
+}
+
+.button__reset {
+  background-color: indianred;
+  border-color: indianred;
+}
+
+.button__enviar {
+  background-color: #009DA2;
+  border-color: #009DA2;
 }
 
 /*MEDIA QUERIES*/

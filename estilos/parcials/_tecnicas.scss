@@ -5,7 +5,7 @@ $estilosFuente: (
     font-weight: 200,
     font-size: 2rem,
     color: $turquesa,
-    text-align: justify,
+    text-align: center,
 );
 
 .main__tec{
@@ -43,7 +43,7 @@ $estilosFuente: (
         font-weight: 400;
         font-size: 1.3rem;
         color: $turquesa;
-        text-align:  map-get($estilosFuente, text-align);;
+        text-align:  map-get($estilosFuente, text-align);
     }
     
     &__pa{

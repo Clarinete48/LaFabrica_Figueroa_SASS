@@ -1,6 +1,10 @@
+@mixin sizes ($height, $width) {
+    height: $height;
+    width: $width;  
+}
+
 .footer{
-    height: 6rem;
-    width: 100%;  
+    @include sizes(6rem, 100%);
     background-color: $turquesa;
     &__title{
         padding-top: 1rem;

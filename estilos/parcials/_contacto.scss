@@ -16,8 +16,6 @@
 .button{
     width: 5rem;
     height: 1.5rem;
-    background-color: $turquesa;
-    border-color: $turquesa;
     border-style: none;
     font-family: Be Vietnam Pro;
     font-weight: 200;
@@ -28,4 +26,16 @@
 
 .button:hover{
     font-size: 1rem;
+}
+
+.button__reset{
+    @extend .button;
+    background-color:indianred;
+    border-color: indianred;
+}
+
+.button__enviar{
+    @extend .button;
+    background-color: $turquesa;
+    border-color: $turquesa;
 }
